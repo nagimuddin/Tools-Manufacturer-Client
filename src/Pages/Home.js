@@ -1,12 +1,10 @@
 import React from 'react';
-import Footer from '../Shared/Footer';
-import Header from '../Shared/Header';
+import Bennar from './Bennar';
 
 const Home = () => {
     return (
         <div>
-            <Header></Header>
-            <Footer></Footer>
+            <Bennar></Bennar>
         </div>
     );
 };
