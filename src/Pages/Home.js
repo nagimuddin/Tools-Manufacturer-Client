@@ -3,6 +3,7 @@ import Bennar from './Bennar';
 import Pricing from './Pricing';
 import Products from './Products';
 import Steps from './Steps';
+import Testimunial from './Testimunial';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Products></Products>
             <Steps></Steps>
             <Pricing></Pricing>
+            <Testimunial></Testimunial>
         </div>
     );
 };
