@@ -82,12 +82,12 @@ const LogIn = () => {
               <p className='text-sm mt-4 font-medium leading-none text-gray-500'>
                 Dont have account?{" "}
                 <Link
-                  to='/signup'
+                  to='/register'
                   onClick={navigateRegister}
                   aria-label='Sign up here'
                   className='text-sm font-medium leading-none underline text-gray-800 cursor-pointer'>
                   {" "}
-                  Sign up here
+                  Register here
                 </Link>
               </p>
               <SocialLogin />
@@ -121,7 +121,7 @@ const LogIn = () => {
                   type='submit'
                   aria-label='create my account'
                   className='focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 text-sm font-semibold leading-none text-white focus:outline-none bg-indigo-700 border rounded hover:bg-indigo-600 py-4 w-full'>
-                  Sign In
+                  Log In
                 </button>
               </div>
               <ClipLoader className='mx-auto mt-4' color={"#36D7B7"} loading={loading} size={30} />
