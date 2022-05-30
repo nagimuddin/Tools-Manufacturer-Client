@@ -6,7 +6,7 @@ const useProducts = () => {
 
     useEffect(() => {
         const getProducts = async () => {
-            const url = 'https://toolkitsnode.herokuapp.com/tools';
+            const url = 'https://tools-manufactur.herokuapp.com/tools';
             const { data } = await axios.get(url);
             setProducts(data);
         }
